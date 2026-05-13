@@ -1,0 +1,32 @@
+/* Header style */
+.header {
+    background-color: var(--clr-white);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* Navbar style */
+.logo img {
+    width: 140px;
+}
+
+.nav-items {
+    list-style-type: none;
+    gap: 32px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: var(--clr-heading);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon img {
+    width: 32px;
+    height: 32px;
+}

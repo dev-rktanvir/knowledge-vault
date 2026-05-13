@@ -1,0 +1,10 @@
+/* Responsive for Small devices */
+@media screen and (max-width: 576px) {
+    /* Navbar style */
+    .nav-items, .nav-btn{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}

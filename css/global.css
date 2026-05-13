@@ -6,8 +6,57 @@ body {
 }
 
 /* Reset Browser */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Color */
+:root {
+    --clr-primary: #469165;
+    --clr-secondary: #001931;
+    --clr-text: #627382;
+    --clr-bullet: #001931;
+    --clr-bg: #F7F6F2;
+    --clr-white: #ffffff;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    background-color: var(--clr-primary);
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    color: var(--clr-white);
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Flex Layout */
+.flex {
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
 }
