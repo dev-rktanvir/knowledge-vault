@@ -46,6 +46,18 @@ a {
     text-decoration: none;
 }
 
+.section-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--clr-secondary);
+    text-align: center;
+}
+.text{
+    line-height: 1.25rem;
+    padding-top: 16px;
+    text-align: center;
+}
+
 /* Flex Layout */
 .flex {
     display: flex;
