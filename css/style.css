@@ -158,3 +158,18 @@
 .list img{
     width: 20px;
 }
+
+/* Action section */
+.action{
+    border-radius: 12px;
+    padding: 80px 40px;
+    background-color: var(--clr-bg);
+    margin-bottom: 120px;
+}
+.action p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.action-btn{
+    margin-top: 24px;
+}
