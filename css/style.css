@@ -147,7 +147,6 @@
 }
 .list{
     margin-top: 40px;
-    list-style-image: url("../assets/CheckCircle.png");
     gap: 16px;
 }
 .list li{
