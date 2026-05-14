@@ -50,6 +50,15 @@
         margin-bottom: 80px;
         padding: 80px 20px;
     }
+
+    /* Footer */
+    .footer{
+        padding-top: 80px;
+    }
+    .top-part{
+        flex-direction: column;
+        gap: 16px;
+    }
 }
 
 /* Responsive for medium devices */

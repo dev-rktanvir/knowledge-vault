@@ -173,3 +173,34 @@
 .action-btn{
     margin-top: 24px;
 }
+
+/* Footer */
+.footer{
+    background-color: #001931;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.footer-container{
+    gap: 80px;
+}
+.social p{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: var(--clr-white);
+    margin-bottom: 16px;
+}
+.link-img {
+    gap: 16px;
+
+}
+.link-img img{
+    width: 20px;
+}
+.bottom{
+    border-top: 1px solid #efefef2f;
+}
+.bottom p{
+    color: #FAFAFA;
+    margin-top: 20px;
+}
