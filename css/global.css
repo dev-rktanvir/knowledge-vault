@@ -75,3 +75,6 @@ a {
 .flex-col{
     flex-direction: column;
 }
+.flex-1{
+    width: 50%;
+}

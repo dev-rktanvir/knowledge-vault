@@ -105,7 +105,7 @@
     border-radius: 8px;
     padding: 24px;
     background-color: white;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
 }
 .card-img{
     width: 60px;
@@ -123,4 +123,38 @@
     font-size: 1.5rem;
     color: var(--clr-secondary);
     margin-top: 16px;
+}
+
+/* Solution section */
+.solution{
+    padding: 120px 12px;
+    gap: 60px;
+}
+.solution span{
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: var(--clr-primary);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.solution h2{
+    text-align: left;
+}
+.solution p{
+    text-align: left;
+    max-width: 460px;
+}
+.list{
+    margin-top: 40px;
+    list-style-image: url("../assets/CheckCircle.png");
+    gap: 16px;
+}
+.list li{
+    font-weight: 500;
+    color: var(--clr-secondary);
+    gap: 6px;
+}
+.list img{
+    width: 20px;
 }
